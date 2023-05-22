@@ -1,0 +1,85 @@
+html{
+    font-size: 10px;
+    font-family: 'PT Serif', serif;
+}
+@media (max-width: 680px){
+    html {
+        font-size: 7px;
+    }
+    .logoBox {
+        width: 150px;
+        height: 90px;
+    }
+}
+
+body {
+    background-color: hsl(250deg 100% 98.82%);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.logoBox {
+    width: 250px;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.logoBox img {
+    width: 100%;
+}
+
+.main {
+    text-align: center;
+    margin: 20px;
+}
+
+.main p {
+    color: hsl(232.94deg 6.88% 51.57%);
+    font-size: 2.5rem;
+ 
+}
+.main h4 {
+    color: hsl(223.82deg 90.27% 44.31%);
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0px 10px;
+}
+
+.main h5 {
+    color: hsl(226.67deg 5.39% 67.25%);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+/* .main h6 {
+    color: hsl(226.67deg 5.39% 67.25%);
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 0px;
+} */
+
+.socialBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socialBox a {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 2px 7px -1px #858585f7;
+    margin: 5px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.socialBox a img {
+    width: 100%;
+}
